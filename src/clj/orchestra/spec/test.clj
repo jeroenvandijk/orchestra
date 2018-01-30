@@ -12,7 +12,8 @@
    [clojure.pprint :as pp]
    [clojure.spec.alpha :as s]
    [clojure.spec.gen.alpha :as gen]
-   [clojure.string :as str]))
+   [clojure.string :as str]
+   [clojure.future :refer :all]))
 
 (defn ->sym
   [x]

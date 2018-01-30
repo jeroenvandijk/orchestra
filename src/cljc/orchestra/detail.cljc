@@ -1,7 +1,8 @@
 (ns orchestra.detail
   (:require [#?(:clj clojure.spec.alpha
                 :cljs cljs.spec.alpha)
-             :as s]))
+             :as s]
+            #?(:clj [clojure.future :refer :all])))
 
 ;;;; destructure
 
